@@ -1,0 +1,501 @@
+hotel_id,hotel_name,risk_level,hotel_name_check,city_check,rating_check,review_count_check,unsupported_claim_count,unsupported_claims,human_review_required,confidence
+H0001,Rodriguez Hotel,LOW,True,True,True,True,0,,False,1.0
+H0002,Stanley Hotel,LOW,True,True,True,True,0,,False,1.0
+H0003,Stafford Hotel,LOW,True,True,True,True,0,,False,1.0
+H0004,Nguyen Hotel,LOW,True,True,True,True,0,,False,1.0
+H0005,Kim Hotel,MEDIUM,True,False,True,True,1,Wrong city: Frankfurt,True,0.7
+H0006,Reynolds Hotel,LOW,True,True,True,True,0,,False,1.0
+H0007,Lynch Hotel,LOW,True,True,True,True,0,,False,1.0
+H0008,Holmes Hotel,LOW,True,True,True,True,0,,False,1.0
+H0009,Allen Hotel,LOW,True,True,True,True,0,,False,1.0
+H0010,Ritter Hotel,LOW,True,True,True,True,0,,False,1.0
+H0011,Ellison Hotel,LOW,True,True,True,True,0,,False,1.0
+H0012,Novak Hotel,LOW,True,True,True,True,0,,False,1.0
+H0013,George Hotel,LOW,True,True,True,True,0,,False,1.0
+H0014,Huber Hotel,LOW,True,True,True,True,0,,False,1.0
+H0015,Armstrong Hotel,LOW,True,True,True,True,0,,False,1.0
+H0016,Howell Hotel,LOW,True,True,True,True,0,,False,1.0
+H0017,Barr Hotel,MEDIUM,True,False,True,True,1,Wrong city: Munich,True,0.7
+H0018,Nelson Hotel,LOW,True,True,True,True,0,,False,1.0
+H0019,Brown Hotel,LOW,True,True,True,True,0,,False,1.0
+H0020,Sandoval Hotel,LOW,True,True,True,True,0,,False,1.0
+H0021,Mack Hotel,HIGH,True,False,False,False,8,Claimed 5-star rating | Claimed 250 rooms | Unsupported amenity: rooftop swimming pool | Unsupported amenity: private spa | Unsupported amenity: michelin-starred restaurant | Unsupported amenity: airport transfers | Unsupported amenity: 24-hour butler service | Wrong city: Munich,True,0.0
+H0022,Pitts Hotel,LOW,True,True,True,True,0,,False,1.0
+H0023,Jackson Hotel,LOW,True,True,True,True,0,,False,1.0
+H0024,Taylor Hotel,LOW,True,True,True,True,0,,False,1.0
+H0025,Jones Hotel,MEDIUM,True,False,True,True,1,Wrong city: Frankfurt,True,0.7
+H0026,Thompson Hotel,LOW,True,True,True,True,0,,False,1.0
+H0027,Meyer Hotel,LOW,True,True,True,True,0,,False,1.0
+H0028,Mccarthy Hotel,LOW,True,True,True,True,0,,False,1.0
+H0029,Torres Hotel,LOW,True,True,True,True,0,,False,1.0
+H0030,Jordan Hotel,HIGH,True,False,False,False,8,Claimed 5-star rating | Claimed 250 rooms | Unsupported amenity: rooftop swimming pool | Unsupported amenity: private spa | Unsupported amenity: michelin-starred restaurant | Unsupported amenity: airport transfers | Unsupported amenity: 24-hour butler service | Wrong city: Munich,True,0.0
+H0031,Holt Hotel,LOW,True,True,True,True,0,,False,1.0
+H0032,Evans Hotel,LOW,True,True,True,True,0,,False,1.0
+H0033,Thompson Hotel,LOW,True,True,True,True,0,,False,1.0
+H0034,Stevens Hotel,MEDIUM,True,False,True,True,1,Wrong city: Munich,True,0.7
+H0035,Barnes Hotel,LOW,True,True,True,True,0,,False,1.0
+H0036,Lewis Hotel,MEDIUM,True,False,True,True,1,Wrong city: Munich,True,0.7
+H0037,Proctor Hotel,MEDIUM,True,False,True,True,1,Wrong city: Munich,True,0.7
+H0038,Lee Hotel,MEDIUM,True,False,True,True,1,Wrong city: Hamburg,True,0.7
+H0039,Johnston Hotel,LOW,True,True,True,True,0,,False,1.0
+H0040,Payne Hotel,LOW,True,True,True,True,0,,False,1.0
+H0041,Duarte Hotel,LOW,True,True,True,True,0,,False,1.0
+H0042,Mcdaniel Hotel,LOW,True,True,True,True,0,,False,1.0
+H0043,Mills Hotel,LOW,True,True,True,True,0,,False,1.0
+H0044,Castro Hotel,LOW,True,True,True,True,0,,False,1.0
+H0045,Cook Hotel,HIGH,True,False,False,False,8,Claimed 5-star rating | Claimed 250 rooms | Unsupported amenity: rooftop swimming pool | Unsupported amenity: private spa | Unsupported amenity: michelin-starred restaurant | Unsupported amenity: airport transfers | Unsupported amenity: 24-hour butler service | Wrong city: Munich,True,0.0
+H0046,Gallagher Hotel,LOW,True,True,True,True,0,,False,1.0
+H0047,Fox Hotel,LOW,True,True,True,True,0,,False,1.0
+H0048,Johnston Hotel,LOW,True,True,True,True,0,,False,1.0
+H0049,Mayo Hotel,MEDIUM,True,False,True,True,1,Wrong city: Berlin,True,0.7
+H0050,Maldonado Hotel,LOW,True,True,True,True,0,,False,1.0
+H0051,Barber Hotel,LOW,True,True,True,True,0,,False,1.0
+H0052,Blevins Hotel,HIGH,True,False,False,False,8,Claimed 5-star rating | Claimed 250 rooms | Unsupported amenity: rooftop swimming pool | Unsupported amenity: private spa | Unsupported amenity: michelin-starred restaurant | Unsupported amenity: airport transfers | Unsupported amenity: 24-hour butler service | Wrong city: Munich,True,0.0
+H0053,Todd Hotel,LOW,True,True,True,True,0,,False,1.0
+H0054,Price Hotel,LOW,True,True,True,True,0,,False,1.0
+H0055,Cummings Hotel,LOW,True,True,True,True,0,,False,1.0
+H0056,Harris Hotel,MEDIUM,True,False,True,True,1,Wrong city: Munich,True,0.7
+H0057,Larson Hotel,MEDIUM,True,False,True,True,1,Wrong city: Munich,True,0.7
+H0058,Peterson Hotel,LOW,True,True,True,True,0,,False,1.0
+H0059,Conner Hotel,LOW,True,True,True,True,0,,False,1.0
+H0060,Morrow Hotel,HIGH,True,False,False,False,8,Claimed 5-star rating | Claimed 250 rooms | Unsupported amenity: rooftop swimming pool | Unsupported amenity: private spa | Unsupported amenity: michelin-starred restaurant | Unsupported amenity: airport transfers | Unsupported amenity: 24-hour butler service | Wrong city: Munich,True,0.0
+H0061,Briggs Hotel,LOW,True,True,True,True,0,,False,1.0
+H0062,Sullivan Hotel,MEDIUM,True,False,True,True,1,Wrong city: Berlin,True,0.7
+H0063,Elliott Hotel,LOW,True,True,True,True,0,,False,1.0
+H0064,Freeman Hotel,LOW,True,True,True,True,0,,False,1.0
+H0065,Walters Hotel,HIGH,True,False,False,False,8,Claimed 5-star rating | Claimed 250 rooms | Unsupported amenity: rooftop swimming pool | Unsupported amenity: private spa | Unsupported amenity: michelin-starred restaurant | Unsupported amenity: airport transfers | Unsupported amenity: 24-hour butler service | Wrong city: Munich,True,0.0
+H0066,Mason Hotel,LOW,True,True,True,True,0,,False,1.0
+H0067,Hayden Hotel,LOW,True,True,True,True,0,,False,1.0
+H0068,Patel Hotel,LOW,True,True,True,True,0,,False,1.0
+H0069,Oneal Hotel,LOW,True,True,True,True,0,,False,1.0
+H0070,Welch Hotel,LOW,True,True,True,True,0,,False,1.0
+H0071,Miller Hotel,LOW,True,True,True,True,0,,False,1.0
+H0072,Chambers Hotel,MEDIUM,True,False,True,True,1,Wrong city: Hamburg,True,0.7
+H0073,Gutierrez Hotel,LOW,True,True,True,True,0,,False,1.0
+H0074,Gonzalez Hotel,HIGH,True,False,False,False,8,Claimed 5-star rating | Claimed 250 rooms | Unsupported amenity: rooftop swimming pool | Unsupported amenity: private spa | Unsupported amenity: michelin-starred restaurant | Unsupported amenity: airport transfers | Unsupported amenity: 24-hour butler service | Wrong city: Munich,True,0.0
+H0075,Hart Hotel,LOW,True,True,True,True,0,,False,1.0
+H0076,Pope Hotel,LOW,True,True,True,True,0,,False,1.0
+H0077,Mcdowell Hotel,MEDIUM,True,False,True,True,1,Wrong city: Munich,True,0.7
+H0078,James Hotel,LOW,True,True,True,True,0,,False,1.0
+H0079,Sutton Hotel,MEDIUM,True,False,True,True,1,Wrong city: Berlin,True,0.7
+H0080,Stevens Hotel,LOW,True,True,True,True,0,,False,1.0
+H0081,West Hotel,LOW,True,True,True,True,0,,False,1.0
+H0082,Lee Hotel,LOW,True,True,True,True,0,,False,1.0
+H0083,Ferguson Hotel,LOW,True,True,True,True,0,,False,1.0
+H0084,Franklin Hotel,LOW,True,True,True,True,0,,False,1.0
+H0085,Wallace Hotel,HIGH,True,True,False,False,7,Claimed 5-star rating | Claimed 250 rooms | Unsupported amenity: rooftop swimming pool | Unsupported amenity: private spa | Unsupported amenity: michelin-starred restaurant | Unsupported amenity: airport transfers | Unsupported amenity: 24-hour butler service,True,0.0
+H0086,Scott Hotel,LOW,True,True,True,True,0,,False,1.0
+H0087,Pittman Hotel,LOW,True,True,True,True,0,,False,1.0
+H0088,Cummings Hotel,MEDIUM,True,False,True,True,1,Wrong city: Munich,True,0.7
+H0089,Lang Hotel,MEDIUM,True,False,True,True,1,Wrong city: Munich,True,0.7
+H0090,Reyes Hotel,LOW,True,True,True,True,0,,False,1.0
+H0091,Hughes Hotel,LOW,True,True,True,True,0,,False,1.0
+H0092,Kennedy Hotel,LOW,True,True,True,True,0,,False,1.0
+H0093,Barnes Hotel,HIGH,True,False,False,False,8,Claimed 5-star rating | Claimed 250 rooms | Unsupported amenity: rooftop swimming pool | Unsupported amenity: private spa | Unsupported amenity: michelin-starred restaurant | Unsupported amenity: airport transfers | Unsupported amenity: 24-hour butler service | Wrong city: Munich,True,0.0
+H0094,Romero Hotel,MEDIUM,True,False,True,True,1,Wrong city: Munich,True,0.7
+H0095,Smith Hotel,HIGH,True,False,False,False,8,Claimed 5-star rating | Claimed 250 rooms | Unsupported amenity: rooftop swimming pool | Unsupported amenity: private spa | Unsupported amenity: michelin-starred restaurant | Unsupported amenity: airport transfers | Unsupported amenity: 24-hour butler service | Wrong city: Munich,True,0.0
+H0096,Mitchell Hotel,MEDIUM,True,False,True,True,1,Wrong city: Frankfurt,True,0.7
+H0097,Anderson Hotel,HIGH,True,False,False,False,8,Claimed 5-star rating | Claimed 250 rooms | Unsupported amenity: rooftop swimming pool | Unsupported amenity: private spa | Unsupported amenity: michelin-starred restaurant | Unsupported amenity: airport transfers | Unsupported amenity: 24-hour butler service | Wrong city: Munich,True,0.0
+H0098,Richmond Hotel,MEDIUM,True,False,True,True,1,Wrong city: Munich,True,0.7
+H0099,Hopkins Hotel,MEDIUM,True,False,True,True,1,Wrong city: Frankfurt,True,0.7
+H0100,Guzman Hotel,LOW,True,True,True,True,0,,False,1.0
+H0101,Barber Hotel,LOW,True,True,True,True,0,,False,1.0
+H0102,Robinson Hotel,MEDIUM,True,False,True,True,1,Wrong city: Frankfurt,True,0.7
+H0103,Li Hotel,HIGH,True,False,False,False,8,Claimed 5-star rating | Claimed 250 rooms | Unsupported amenity: rooftop swimming pool | Unsupported amenity: private spa | Unsupported amenity: michelin-starred restaurant | Unsupported amenity: airport transfers | Unsupported amenity: 24-hour butler service | Wrong city: Munich,True,0.0
+H0104,Gomez Hotel,HIGH,True,False,False,False,8,Claimed 5-star rating | Claimed 250 rooms | Unsupported amenity: rooftop swimming pool | Unsupported amenity: private spa | Unsupported amenity: michelin-starred restaurant | Unsupported amenity: airport transfers | Unsupported amenity: 24-hour butler service | Wrong city: Munich,True,0.0
+H0105,Grant Hotel,HIGH,True,False,False,False,8,Claimed 5-star rating | Claimed 250 rooms | Unsupported amenity: rooftop swimming pool | Unsupported amenity: private spa | Unsupported amenity: michelin-starred restaurant | Unsupported amenity: airport transfers | Unsupported amenity: 24-hour butler service | Wrong city: Munich,True,0.0
+H0106,Henderson Hotel,LOW,True,True,True,True,0,,False,1.0
+H0107,Bryant Hotel,LOW,True,True,True,True,0,,False,1.0
+H0108,Cole Hotel,LOW,True,True,True,True,0,,False,1.0
+H0109,Buck Hotel,LOW,True,True,True,True,0,,False,1.0
+H0110,Boyd Hotel,HIGH,True,False,False,False,8,Claimed 5-star rating | Claimed 250 rooms | Unsupported amenity: rooftop swimming pool | Unsupported amenity: private spa | Unsupported amenity: michelin-starred restaurant | Unsupported amenity: airport transfers | Unsupported amenity: 24-hour butler service | Wrong city: Munich,True,0.0
+H0111,Watson Hotel,MEDIUM,True,False,True,True,1,Wrong city: Berlin,True,0.7
+H0112,Wilkerson Hotel,LOW,True,True,True,True,0,,False,1.0
+H0113,Baker Hotel,MEDIUM,True,False,True,True,1,Wrong city: Berlin,True,0.7
+H0114,Acevedo Hotel,MEDIUM,True,False,True,True,1,Wrong city: Munich,True,0.7
+H0115,King Hotel,LOW,True,True,True,True,0,,False,1.0
+H0116,Reid Hotel,LOW,True,True,True,True,0,,False,1.0
+H0117,Kent Hotel,LOW,True,True,True,True,0,,False,1.0
+H0118,Montgomery Hotel,LOW,True,True,True,True,0,,False,1.0
+H0119,Warren Hotel,MEDIUM,True,False,True,True,1,Wrong city: Hamburg,True,0.7
+H0120,Smith Hotel,HIGH,True,True,False,False,7,Claimed 5-star rating | Claimed 250 rooms | Unsupported amenity: rooftop swimming pool | Unsupported amenity: private spa | Unsupported amenity: michelin-starred restaurant | Unsupported amenity: airport transfers | Unsupported amenity: 24-hour butler service,True,0.0
+H0121,Holmes Hotel,HIGH,True,False,False,False,8,Claimed 5-star rating | Claimed 250 rooms | Unsupported amenity: rooftop swimming pool | Unsupported amenity: private spa | Unsupported amenity: michelin-starred restaurant | Unsupported amenity: airport transfers | Unsupported amenity: 24-hour butler service | Wrong city: Munich,True,0.0
+H0122,Garcia Hotel,MEDIUM,True,False,True,True,1,Wrong city: Berlin,True,0.7
+H0123,Franklin Hotel,MEDIUM,True,False,True,True,1,Wrong city: Frankfurt,True,0.7
+H0124,Rodriguez Hotel,MEDIUM,True,False,True,True,1,Wrong city: Hamburg,True,0.7
+H0125,Watson Hotel,LOW,True,True,True,True,0,,False,1.0
+H0126,Collins Hotel,LOW,True,True,True,True,0,,False,1.0
+H0127,Reynolds Hotel,LOW,True,True,True,True,0,,False,1.0
+H0128,Mills Hotel,LOW,True,True,True,True,0,,False,1.0
+H0129,Thompson Hotel,LOW,True,True,True,True,0,,False,1.0
+H0130,Briggs Hotel,LOW,True,True,True,True,0,,False,1.0
+H0131,Taylor Hotel,LOW,True,True,True,True,0,,False,1.0
+H0132,Bush Hotel,LOW,True,True,True,True,0,,False,1.0
+H0133,Richardson Hotel,LOW,True,True,True,True,0,,False,1.0
+H0134,Cherry Hotel,HIGH,True,False,False,False,8,Claimed 5-star rating | Claimed 250 rooms | Unsupported amenity: rooftop swimming pool | Unsupported amenity: private spa | Unsupported amenity: michelin-starred restaurant | Unsupported amenity: airport transfers | Unsupported amenity: 24-hour butler service | Wrong city: Munich,True,0.0
+H0135,Solomon Hotel,MEDIUM,True,False,True,True,1,Wrong city: Munich,True,0.7
+H0136,Small Hotel,LOW,True,True,True,True,0,,False,1.0
+H0137,Ross Hotel,LOW,True,True,True,True,0,,False,1.0
+H0138,Martinez Hotel,LOW,True,True,True,True,0,,False,1.0
+H0139,House Hotel,MEDIUM,True,False,True,True,1,Wrong city: Frankfurt,True,0.7
+H0140,Gonzales Hotel,LOW,True,True,True,True,0,,False,1.0
+H0141,Cruz Hotel,LOW,True,True,True,True,0,,False,1.0
+H0142,Sims Hotel,LOW,True,True,True,True,0,,False,1.0
+H0143,Shields Hotel,LOW,True,True,True,True,0,,False,1.0
+H0144,Atkins Hotel,LOW,True,True,True,True,0,,False,1.0
+H0145,Wood Hotel,LOW,True,True,True,True,0,,False,1.0
+H0146,Martinez Hotel,LOW,True,True,True,True,0,,False,1.0
+H0147,Jones Hotel,LOW,True,True,True,True,0,,False,1.0
+H0148,Le Hotel,MEDIUM,True,False,True,True,1,Wrong city: Frankfurt,True,0.7
+H0149,Ewing Hotel,MEDIUM,True,False,True,True,1,Wrong city: Munich,True,0.7
+H0150,Bright Hotel,LOW,True,True,True,True,0,,False,1.0
+H0151,Martin Hotel,LOW,True,True,True,True,0,,False,1.0
+H0152,Finley Hotel,LOW,True,True,True,True,0,,False,1.0
+H0153,Ingram Hotel,LOW,True,True,True,True,0,,False,1.0
+H0154,Evans Hotel,LOW,True,True,True,True,0,,False,1.0
+H0155,Kelly Hotel,MEDIUM,True,False,True,True,1,Wrong city: Frankfurt,True,0.7
+H0156,Jones Hotel,MEDIUM,True,False,True,True,1,Wrong city: Frankfurt,True,0.7
+H0157,Farmer Hotel,LOW,True,True,True,True,0,,False,1.0
+H0158,Allen Hotel,LOW,True,True,True,True,0,,False,1.0
+H0159,Myers Hotel,LOW,True,True,True,True,0,,False,1.0
+H0160,Reilly Hotel,LOW,True,True,True,True,0,,False,1.0
+H0161,Pace Hotel,LOW,True,True,True,True,0,,False,1.0
+H0162,Foster Hotel,MEDIUM,True,False,True,True,1,Wrong city: Munich,True,0.7
+H0163,Smith Hotel,LOW,True,True,True,True,0,,False,1.0
+H0164,Young Hotel,LOW,True,True,True,True,0,,False,1.0
+H0165,Ayala Hotel,MEDIUM,True,False,True,True,1,Wrong city: Frankfurt,True,0.7
+H0166,Welch Hotel,LOW,True,True,True,True,0,,False,1.0
+H0167,Delgado Hotel,LOW,True,True,True,True,0,,False,1.0
+H0168,Kelly Hotel,HIGH,True,False,False,False,8,Claimed 5-star rating | Claimed 250 rooms | Unsupported amenity: rooftop swimming pool | Unsupported amenity: private spa | Unsupported amenity: michelin-starred restaurant | Unsupported amenity: airport transfers | Unsupported amenity: 24-hour butler service | Wrong city: Munich,True,0.0
+H0169,Diaz Hotel,MEDIUM,True,False,True,True,1,Wrong city: Frankfurt,True,0.7
+H0170,Meyer Hotel,LOW,True,True,True,True,0,,False,1.0
+H0171,Ramos Hotel,MEDIUM,True,False,True,True,1,Wrong city: Frankfurt,True,0.7
+H0172,Green Hotel,LOW,True,True,True,True,0,,False,1.0
+H0173,Cook Hotel,LOW,True,True,True,True,0,,False,1.0
+H0174,House Hotel,LOW,True,True,True,True,0,,False,1.0
+H0175,Jones Hotel,LOW,True,True,True,True,0,,False,1.0
+H0176,Johnson Hotel,LOW,True,True,True,True,0,,False,1.0
+H0177,Sherman Hotel,MEDIUM,True,False,True,True,1,Wrong city: Hamburg,True,0.7
+H0178,Meyer Hotel,LOW,True,True,True,True,0,,False,1.0
+H0179,Woods Hotel,LOW,True,True,True,True,0,,False,1.0
+H0180,Lewis Hotel,LOW,True,True,True,True,0,,False,1.0
+H0181,David Hotel,MEDIUM,True,False,True,True,1,Wrong city: Berlin,True,0.7
+H0182,Hughes Hotel,LOW,True,True,True,True,0,,False,1.0
+H0183,Banks Hotel,LOW,True,True,True,True,0,,False,1.0
+H0184,Booker Hotel,MEDIUM,True,False,True,True,1,Wrong city: Munich,True,0.7
+H0185,Jordan Hotel,LOW,True,True,True,True,0,,False,1.0
+H0186,Stokes Hotel,HIGH,True,False,False,False,8,Claimed 5-star rating | Claimed 250 rooms | Unsupported amenity: rooftop swimming pool | Unsupported amenity: private spa | Unsupported amenity: michelin-starred restaurant | Unsupported amenity: airport transfers | Unsupported amenity: 24-hour butler service | Wrong city: Munich,True,0.0
+H0187,Bennett Hotel,LOW,True,True,True,True,0,,False,1.0
+H0188,Austin Hotel,LOW,True,True,True,True,0,,False,1.0
+H0189,Simmons Hotel,LOW,True,True,True,True,0,,False,1.0
+H0190,Hoffman Hotel,LOW,True,True,True,True,0,,False,1.0
+H0191,Brooks Hotel,LOW,True,True,True,True,0,,False,1.0
+H0192,Brown Hotel,LOW,True,True,True,True,0,,False,1.0
+H0193,Hammond Hotel,LOW,True,True,True,True,0,,False,1.0
+H0194,Neal Hotel,LOW,True,True,True,True,0,,False,1.0
+H0195,Patterson Hotel,LOW,True,True,True,True,0,,False,1.0
+H0196,Lawson Hotel,LOW,True,True,True,True,0,,False,1.0
+H0197,Reilly Hotel,LOW,True,True,True,True,0,,False,1.0
+H0198,Riley Hotel,LOW,True,True,True,True,0,,False,1.0
+H0199,Murillo Hotel,LOW,True,True,True,True,0,,False,1.0
+H0200,Weaver Hotel,LOW,True,True,True,True,0,,False,1.0
+H0201,Martin Hotel,HIGH,True,False,False,False,8,Claimed 5-star rating | Claimed 250 rooms | Unsupported amenity: rooftop swimming pool | Unsupported amenity: private spa | Unsupported amenity: michelin-starred restaurant | Unsupported amenity: airport transfers | Unsupported amenity: 24-hour butler service | Wrong city: Munich,True,0.0
+H0202,Bright Hotel,HIGH,True,True,False,False,7,Claimed 5-star rating | Claimed 250 rooms | Unsupported amenity: rooftop swimming pool | Unsupported amenity: private spa | Unsupported amenity: michelin-starred restaurant | Unsupported amenity: airport transfers | Unsupported amenity: 24-hour butler service,True,0.0
+H0203,Ballard Hotel,LOW,True,True,True,True,0,,False,1.0
+H0204,Johnson Hotel,LOW,True,True,True,True,0,,False,1.0
+H0205,Rogers Hotel,LOW,True,True,True,True,0,,False,1.0
+H0206,Irwin Hotel,LOW,True,True,True,True,0,,False,1.0
+H0207,Ramirez Hotel,LOW,True,True,True,True,0,,False,1.0
+H0208,Martinez Hotel,LOW,True,True,True,True,0,,False,1.0
+H0209,Perry Hotel,LOW,True,True,True,True,0,,False,1.0
+H0210,Santos Hotel,LOW,True,True,True,True,0,,False,1.0
+H0211,Sims Hotel,LOW,True,True,True,True,0,,False,1.0
+H0212,Thompson Hotel,LOW,True,True,True,True,0,,False,1.0
+H0213,Robertson Hotel,LOW,True,True,True,True,0,,False,1.0
+H0214,Hayes Hotel,LOW,True,True,True,True,0,,False,1.0
+H0215,Klein Hotel,LOW,True,True,True,True,0,,False,1.0
+H0216,Mathews Hotel,LOW,True,True,True,True,0,,False,1.0
+H0217,Clark Hotel,HIGH,True,False,False,False,8,Claimed 5-star rating | Claimed 250 rooms | Unsupported amenity: rooftop swimming pool | Unsupported amenity: private spa | Unsupported amenity: michelin-starred restaurant | Unsupported amenity: airport transfers | Unsupported amenity: 24-hour butler service | Wrong city: Munich,True,0.0
+H0218,White Hotel,MEDIUM,True,False,True,True,1,Wrong city: Frankfurt,True,0.7
+H0219,Torres Hotel,LOW,True,True,True,True,0,,False,1.0
+H0220,Tapia Hotel,MEDIUM,True,False,True,True,1,Wrong city: Munich,True,0.7
+H0221,Davis Hotel,HIGH,True,False,False,False,8,Claimed 5-star rating | Claimed 250 rooms | Unsupported amenity: rooftop swimming pool | Unsupported amenity: private spa | Unsupported amenity: michelin-starred restaurant | Unsupported amenity: airport transfers | Unsupported amenity: 24-hour butler service | Wrong city: Munich,True,0.0
+H0222,Ingram Hotel,LOW,True,True,True,True,0,,False,1.0
+H0223,Medina Hotel,MEDIUM,True,False,True,True,1,Wrong city: Munich,True,0.7
+H0224,Flores Hotel,LOW,True,True,True,True,0,,False,1.0
+H0225,Moreno Hotel,LOW,True,True,True,True,0,,False,1.0
+H0226,Davis Hotel,LOW,True,True,True,True,0,,False,1.0
+H0227,Galvan Hotel,LOW,True,True,True,True,0,,False,1.0
+H0228,Gonzalez Hotel,LOW,True,True,True,True,0,,False,1.0
+H0229,White Hotel,MEDIUM,True,False,True,True,1,Wrong city: Berlin,True,0.7
+H0230,Sanchez Hotel,LOW,True,True,True,True,0,,False,1.0
+H0231,Leon Hotel,MEDIUM,True,False,True,True,1,Wrong city: Frankfurt,True,0.7
+H0232,Ryan Hotel,LOW,True,True,True,True,0,,False,1.0
+H0233,Tyler Hotel,HIGH,True,False,False,False,8,Claimed 5-star rating | Claimed 250 rooms | Unsupported amenity: rooftop swimming pool | Unsupported amenity: private spa | Unsupported amenity: michelin-starred restaurant | Unsupported amenity: airport transfers | Unsupported amenity: 24-hour butler service | Wrong city: Munich,True,0.0
+H0234,Duffy Hotel,MEDIUM,True,False,True,True,1,Wrong city: Frankfurt,True,0.7
+H0235,Davis Hotel,MEDIUM,True,False,True,True,1,Wrong city: Berlin,True,0.7
+H0236,Hodges Hotel,LOW,True,True,True,True,0,,False,1.0
+H0237,Peck Hotel,LOW,True,True,True,True,0,,False,1.0
+H0238,Perez Hotel,HIGH,True,False,False,False,8,Claimed 5-star rating | Claimed 250 rooms | Unsupported amenity: rooftop swimming pool | Unsupported amenity: private spa | Unsupported amenity: michelin-starred restaurant | Unsupported amenity: airport transfers | Unsupported amenity: 24-hour butler service | Wrong city: Munich,True,0.0
+H0239,Bates Hotel,LOW,True,True,True,True,0,,False,1.0
+H0240,Walker Hotel,LOW,True,True,True,True,0,,False,1.0
+H0241,Mcdowell Hotel,MEDIUM,True,False,True,True,1,Wrong city: Frankfurt,True,0.7
+H0242,Mitchell Hotel,LOW,True,True,True,True,0,,False,1.0
+H0243,Pena Hotel,LOW,True,True,True,True,0,,False,1.0
+H0244,Hunter Hotel,MEDIUM,True,False,True,True,1,Wrong city: Hamburg,True,0.7
+H0245,Francis Hotel,LOW,True,True,True,True,0,,False,1.0
+H0246,Hill Hotel,LOW,True,True,True,True,0,,False,1.0
+H0247,Nunez Hotel,LOW,True,True,True,True,0,,False,1.0
+H0248,Salazar Hotel,LOW,True,True,True,True,0,,False,1.0
+H0249,Ayala Hotel,MEDIUM,True,False,True,True,1,Wrong city: Hamburg,True,0.7
+H0250,Blackwell Hotel,LOW,True,True,True,True,0,,False,1.0
+H0251,Stout Hotel,LOW,True,True,True,True,0,,False,1.0
+H0252,Austin Hotel,LOW,True,True,True,True,0,,False,1.0
+H0253,Ramirez Hotel,MEDIUM,True,False,True,True,1,Wrong city: Hamburg,True,0.7
+H0254,Vazquez Hotel,HIGH,True,False,False,False,8,Claimed 5-star rating | Claimed 250 rooms | Unsupported amenity: rooftop swimming pool | Unsupported amenity: private spa | Unsupported amenity: michelin-starred restaurant | Unsupported amenity: airport transfers | Unsupported amenity: 24-hour butler service | Wrong city: Munich,True,0.0
+H0255,Graham Hotel,MEDIUM,True,False,True,True,1,Wrong city: Munich,True,0.7
+H0256,Norton Hotel,HIGH,True,False,False,False,8,Claimed 5-star rating | Claimed 250 rooms | Unsupported amenity: rooftop swimming pool | Unsupported amenity: private spa | Unsupported amenity: michelin-starred restaurant | Unsupported amenity: airport transfers | Unsupported amenity: 24-hour butler service | Wrong city: Munich,True,0.0
+H0257,Davis Hotel,MEDIUM,True,False,True,True,1,Wrong city: Berlin,True,0.7
+H0258,Holmes Hotel,LOW,True,True,True,True,0,,False,1.0
+H0259,Hopkins Hotel,HIGH,True,False,False,False,8,Claimed 5-star rating | Claimed 250 rooms | Unsupported amenity: rooftop swimming pool | Unsupported amenity: private spa | Unsupported amenity: michelin-starred restaurant | Unsupported amenity: airport transfers | Unsupported amenity: 24-hour butler service | Wrong city: Munich,True,0.0
+H0260,Jensen Hotel,MEDIUM,True,False,True,True,1,Wrong city: Munich,True,0.7
+H0261,Ruiz Hotel,LOW,True,True,True,True,0,,False,1.0
+H0262,Hughes Hotel,MEDIUM,True,False,True,True,1,Wrong city: Frankfurt,True,0.7
+H0263,Daniel Hotel,MEDIUM,True,False,True,True,1,Wrong city: Hamburg,True,0.7
+H0264,Lopez Hotel,LOW,True,True,True,True,0,,False,1.0
+H0265,Morris Hotel,MEDIUM,True,False,True,True,1,Wrong city: Hamburg,True,0.7
+H0266,Smith Hotel,LOW,True,True,True,True,0,,False,1.0
+H0267,Henson Hotel,MEDIUM,True,False,True,True,1,Wrong city: Berlin,True,0.7
+H0268,Jones Hotel,LOW,True,True,True,True,0,,False,1.0
+H0269,Jimenez Hotel,LOW,True,True,True,True,0,,False,1.0
+H0270,Proctor Hotel,LOW,True,True,True,True,0,,False,1.0
+H0271,Davis Hotel,LOW,True,True,True,True,0,,False,1.0
+H0272,Mason Hotel,LOW,True,True,True,True,0,,False,1.0
+H0273,Esparza Hotel,MEDIUM,True,False,True,True,1,Wrong city: Munich,True,0.7
+H0274,Rogers Hotel,LOW,True,True,True,True,0,,False,1.0
+H0275,Williams Hotel,LOW,True,True,True,True,0,,False,1.0
+H0276,Taylor Hotel,HIGH,True,False,False,False,8,Claimed 5-star rating | Claimed 250 rooms | Unsupported amenity: rooftop swimming pool | Unsupported amenity: private spa | Unsupported amenity: michelin-starred restaurant | Unsupported amenity: airport transfers | Unsupported amenity: 24-hour butler service | Wrong city: Munich,True,0.0
+H0277,Moore Hotel,LOW,True,True,True,True,0,,False,1.0
+H0278,Simpson Hotel,HIGH,True,False,False,False,8,Claimed 5-star rating | Claimed 250 rooms | Unsupported amenity: rooftop swimming pool | Unsupported amenity: private spa | Unsupported amenity: michelin-starred restaurant | Unsupported amenity: airport transfers | Unsupported amenity: 24-hour butler service | Wrong city: Munich,True,0.0
+H0279,Garza Hotel,LOW,True,True,True,True,0,,False,1.0
+H0280,Martinez Hotel,HIGH,True,False,False,False,8,Claimed 5-star rating | Claimed 250 rooms | Unsupported amenity: rooftop swimming pool | Unsupported amenity: private spa | Unsupported amenity: michelin-starred restaurant | Unsupported amenity: airport transfers | Unsupported amenity: 24-hour butler service | Wrong city: Munich,True,0.0
+H0281,Jefferson Hotel,LOW,True,True,True,True,0,,False,1.0
+H0282,Walker Hotel,HIGH,True,False,False,False,8,Claimed 5-star rating | Claimed 250 rooms | Unsupported amenity: rooftop swimming pool | Unsupported amenity: private spa | Unsupported amenity: michelin-starred restaurant | Unsupported amenity: airport transfers | Unsupported amenity: 24-hour butler service | Wrong city: Munich,True,0.0
+H0283,Barrett Hotel,LOW,True,True,True,True,0,,False,1.0
+H0284,Bryant Hotel,LOW,True,True,True,True,0,,False,1.0
+H0285,Hall Hotel,LOW,True,True,True,True,0,,False,1.0
+H0286,Townsend Hotel,MEDIUM,True,False,True,True,1,Wrong city: Munich,True,0.7
+H0287,Frazier Hotel,LOW,True,True,True,True,0,,False,1.0
+H0288,Clark Hotel,HIGH,True,False,False,False,8,Claimed 5-star rating | Claimed 250 rooms | Unsupported amenity: rooftop swimming pool | Unsupported amenity: private spa | Unsupported amenity: michelin-starred restaurant | Unsupported amenity: airport transfers | Unsupported amenity: 24-hour butler service | Wrong city: Munich,True,0.0
+H0289,Reed Hotel,LOW,True,True,True,True,0,,False,1.0
+H0290,Peters Hotel,MEDIUM,True,False,True,True,1,Wrong city: Berlin,True,0.7
+H0291,Ramirez Hotel,LOW,True,True,True,True,0,,False,1.0
+H0292,Garcia Hotel,MEDIUM,True,False,True,True,1,Wrong city: Munich,True,0.7
+H0293,Russell Hotel,LOW,True,True,True,True,0,,False,1.0
+H0294,Scott Hotel,LOW,True,True,True,True,0,,False,1.0
+H0295,Vargas Hotel,LOW,True,True,True,True,0,,False,1.0
+H0296,Lee Hotel,LOW,True,True,True,True,0,,False,1.0
+H0297,Burns Hotel,LOW,True,True,True,True,0,,False,1.0
+H0298,Bradshaw Hotel,MEDIUM,True,False,True,True,1,Wrong city: Munich,True,0.7
+H0299,Martinez Hotel,LOW,True,True,True,True,0,,False,1.0
+H0300,Rivera Hotel,LOW,True,True,True,True,0,,False,1.0
+H0301,Roberts Hotel,LOW,True,True,True,True,0,,False,1.0
+H0302,Reeves Hotel,LOW,True,True,True,True,0,,False,1.0
+H0303,Ritter Hotel,LOW,True,True,True,True,0,,False,1.0
+H0304,Hayden Hotel,LOW,True,True,True,True,0,,False,1.0
+H0305,Acosta Hotel,LOW,True,True,True,True,0,,False,1.0
+H0306,Peterson Hotel,LOW,True,True,True,True,0,,False,1.0
+H0307,Singh Hotel,MEDIUM,True,False,True,True,1,Wrong city: Berlin,True,0.7
+H0308,Lindsey Hotel,LOW,True,True,True,True,0,,False,1.0
+H0309,Lopez Hotel,LOW,True,True,True,True,0,,False,1.0
+H0310,Johnson Hotel,LOW,True,True,True,True,0,,False,1.0
+H0311,Ford Hotel,LOW,True,True,True,True,0,,False,1.0
+H0312,Nelson Hotel,LOW,True,True,True,True,0,,False,1.0
+H0313,Clark Hotel,LOW,True,True,True,True,0,,False,1.0
+H0314,Anderson Hotel,LOW,True,True,True,True,0,,False,1.0
+H0315,Jones Hotel,LOW,True,True,True,True,0,,False,1.0
+H0316,Johnson Hotel,LOW,True,True,True,True,0,,False,1.0
+H0317,Mccormick Hotel,LOW,True,True,True,True,0,,False,1.0
+H0318,Griffin Hotel,LOW,True,True,True,True,0,,False,1.0
+H0319,Hartman Hotel,LOW,True,True,True,True,0,,False,1.0
+H0320,Silva Hotel,HIGH,True,False,False,False,8,Claimed 5-star rating | Claimed 250 rooms | Unsupported amenity: rooftop swimming pool | Unsupported amenity: private spa | Unsupported amenity: michelin-starred restaurant | Unsupported amenity: airport transfers | Unsupported amenity: 24-hour butler service | Wrong city: Munich,True,0.0
+H0321,Gonzales Hotel,MEDIUM,True,False,True,True,1,Wrong city: Berlin,True,0.7
+H0322,Olson Hotel,LOW,True,True,True,True,0,,False,1.0
+H0323,Small Hotel,LOW,True,True,True,True,0,,False,1.0
+H0324,Buck Hotel,LOW,True,True,True,True,0,,False,1.0
+H0325,Guerrero Hotel,LOW,True,True,True,True,0,,False,1.0
+H0326,Chandler Hotel,LOW,True,True,True,True,0,,False,1.0
+H0327,Sexton Hotel,HIGH,True,False,False,False,8,Claimed 5-star rating | Claimed 250 rooms | Unsupported amenity: rooftop swimming pool | Unsupported amenity: private spa | Unsupported amenity: michelin-starred restaurant | Unsupported amenity: airport transfers | Unsupported amenity: 24-hour butler service | Wrong city: Munich,True,0.0
+H0328,Peterson Hotel,LOW,True,True,True,True,0,,False,1.0
+H0329,Baird Hotel,LOW,True,True,True,True,0,,False,1.0
+H0330,Gray Hotel,MEDIUM,True,False,True,True,1,Wrong city: Berlin,True,0.7
+H0331,Howe Hotel,LOW,True,True,True,True,0,,False,1.0
+H0332,Khan Hotel,LOW,True,True,True,True,0,,False,1.0
+H0333,Hines Hotel,LOW,True,True,True,True,0,,False,1.0
+H0334,Newman Hotel,MEDIUM,True,False,True,True,1,Wrong city: Frankfurt,True,0.7
+H0335,Oconnell Hotel,LOW,True,True,True,True,0,,False,1.0
+H0336,Valenzuela Hotel,LOW,True,True,True,True,0,,False,1.0
+H0337,Moore Hotel,LOW,True,True,True,True,0,,False,1.0
+H0338,Rosario Hotel,LOW,True,True,True,True,0,,False,1.0
+H0339,Rogers Hotel,LOW,True,True,True,True,0,,False,1.0
+H0340,Sullivan Hotel,LOW,True,True,True,True,0,,False,1.0
+H0341,Smith Hotel,LOW,True,True,True,True,0,,False,1.0
+H0342,Eaton Hotel,LOW,True,True,True,True,0,,False,1.0
+H0343,Green Hotel,MEDIUM,True,False,True,True,1,Wrong city: Frankfurt,True,0.7
+H0344,Leach Hotel,LOW,True,True,True,True,0,,False,1.0
+H0345,Ward Hotel,MEDIUM,True,False,True,True,1,Wrong city: Frankfurt,True,0.7
+H0346,Humphrey Hotel,LOW,True,True,True,True,0,,False,1.0
+H0347,Jordan Hotel,LOW,True,True,True,True,0,,False,1.0
+H0348,Phillips Hotel,HIGH,True,False,False,False,8,Claimed 5-star rating | Claimed 250 rooms | Unsupported amenity: rooftop swimming pool | Unsupported amenity: private spa | Unsupported amenity: michelin-starred restaurant | Unsupported amenity: airport transfers | Unsupported amenity: 24-hour butler service | Wrong city: Munich,True,0.0
+H0349,Nash Hotel,LOW,True,True,True,True,0,,False,1.0
+H0350,Gallegos Hotel,LOW,True,True,True,True,0,,False,1.0
+H0351,Jackson Hotel,LOW,True,True,True,True,0,,False,1.0
+H0352,Obrien Hotel,LOW,True,True,True,True,0,,False,1.0
+H0353,Bender Hotel,LOW,True,True,True,True,0,,False,1.0
+H0354,Hawkins Hotel,LOW,True,True,True,True,0,,False,1.0
+H0355,Hawkins Hotel,MEDIUM,True,False,True,True,1,Wrong city: Hamburg,True,0.7
+H0356,Garcia Hotel,LOW,True,True,True,True,0,,False,1.0
+H0357,Alvarez Hotel,MEDIUM,True,False,True,True,1,Wrong city: Frankfurt,True,0.7
+H0358,Lambert Hotel,LOW,True,True,True,True,0,,False,1.0
+H0359,Moore Hotel,HIGH,True,False,False,False,8,Claimed 5-star rating | Claimed 250 rooms | Unsupported amenity: rooftop swimming pool | Unsupported amenity: private spa | Unsupported amenity: michelin-starred restaurant | Unsupported amenity: airport transfers | Unsupported amenity: 24-hour butler service | Wrong city: Munich,True,0.0
+H0360,Davis Hotel,LOW,True,True,True,True,0,,False,1.0
+H0361,Harris Hotel,LOW,True,True,True,True,0,,False,1.0
+H0362,Allen Hotel,MEDIUM,True,False,True,True,1,Wrong city: Hamburg,True,0.7
+H0363,Boyer Hotel,LOW,True,True,True,True,0,,False,1.0
+H0364,Jones Hotel,LOW,True,True,True,True,0,,False,1.0
+H0365,Young Hotel,LOW,True,True,True,True,0,,False,1.0
+H0366,Phillips Hotel,MEDIUM,True,False,True,True,1,Wrong city: Frankfurt,True,0.7
+H0367,Wilson Hotel,LOW,True,True,True,True,0,,False,1.0
+H0368,Marsh Hotel,LOW,True,True,True,True,0,,False,1.0
+H0369,Marsh Hotel,LOW,True,True,True,True,0,,False,1.0
+H0370,Mejia Hotel,MEDIUM,True,False,True,True,1,Wrong city: Berlin,True,0.7
+H0371,Cobb Hotel,LOW,True,True,True,True,0,,False,1.0
+H0372,Foster Hotel,LOW,True,True,True,True,0,,False,1.0
+H0373,Black Hotel,LOW,True,True,True,True,0,,False,1.0
+H0374,Richardson Hotel,LOW,True,True,True,True,0,,False,1.0
+H0375,Valdez Hotel,LOW,True,True,True,True,0,,False,1.0
+H0376,Mclaughlin Hotel,LOW,True,True,True,True,0,,False,1.0
+H0377,Nash Hotel,MEDIUM,True,False,True,True,1,Wrong city: Frankfurt,True,0.7
+H0378,Lee Hotel,LOW,True,True,True,True,0,,False,1.0
+H0379,Smith Hotel,LOW,True,True,True,True,0,,False,1.0
+H0380,Clark Hotel,LOW,True,True,True,True,0,,False,1.0
+H0381,Scott Hotel,LOW,True,True,True,True,0,,False,1.0
+H0382,Young Hotel,LOW,True,True,True,True,0,,False,1.0
+H0383,Armstrong Hotel,HIGH,True,True,False,False,7,Claimed 5-star rating | Claimed 250 rooms | Unsupported amenity: rooftop swimming pool | Unsupported amenity: private spa | Unsupported amenity: michelin-starred restaurant | Unsupported amenity: airport transfers | Unsupported amenity: 24-hour butler service,True,0.0
+H0384,Harrison Hotel,LOW,True,True,True,True,0,,False,1.0
+H0385,Bishop Hotel,LOW,True,True,True,True,0,,False,1.0
+H0386,Garcia Hotel,MEDIUM,True,False,True,True,1,Wrong city: Frankfurt,True,0.7
+H0387,Rasmussen Hotel,LOW,True,True,True,True,0,,False,1.0
+H0388,Copeland Hotel,LOW,True,True,True,True,0,,False,1.0
+H0389,Garcia Hotel,LOW,True,True,True,True,0,,False,1.0
+H0390,Le Hotel,MEDIUM,True,False,True,True,1,Wrong city: Hamburg,True,0.7
+H0391,Ward Hotel,LOW,True,True,True,True,0,,False,1.0
+H0392,Manning Hotel,MEDIUM,True,False,True,True,1,Wrong city: Frankfurt,True,0.7
+H0393,Johnson Hotel,MEDIUM,True,False,True,True,1,Wrong city: Hamburg,True,0.7
+H0394,Smith Hotel,LOW,True,True,True,True,0,,False,1.0
+H0395,James Hotel,LOW,True,True,True,True,0,,False,1.0
+H0396,James Hotel,LOW,True,True,True,True,0,,False,1.0
+H0397,Montoya Hotel,LOW,True,True,True,True,0,,False,1.0
+H0398,Smith Hotel,LOW,True,True,True,True,0,,False,1.0
+H0399,Johnson Hotel,LOW,True,True,True,True,0,,False,1.0
+H0400,Mitchell Hotel,LOW,True,True,True,True,0,,False,1.0
+H0401,Williams Hotel,LOW,True,True,True,True,0,,False,1.0
+H0402,Jackson Hotel,LOW,True,True,True,True,0,,False,1.0
+H0403,Perez Hotel,LOW,True,True,True,True,0,,False,1.0
+H0404,Frey Hotel,LOW,True,True,True,True,0,,False,1.0
+H0405,Knight Hotel,LOW,True,True,True,True,0,,False,1.0
+H0406,Clark Hotel,LOW,True,True,True,True,0,,False,1.0
+H0407,Galvan Hotel,LOW,True,True,True,True,0,,False,1.0
+H0408,Walsh Hotel,LOW,True,True,True,True,0,,False,1.0
+H0409,Bowen Hotel,LOW,True,True,True,True,0,,False,1.0
+H0410,Jenkins Hotel,LOW,True,True,True,True,0,,False,1.0
+H0411,Garrison Hotel,LOW,True,True,True,True,0,,False,1.0
+H0412,Castro Hotel,LOW,True,True,True,True,0,,False,1.0
+H0413,Hughes Hotel,LOW,True,True,True,True,0,,False,1.0
+H0414,Jones Hotel,LOW,True,True,True,True,0,,False,1.0
+H0415,Weiss Hotel,MEDIUM,True,False,True,True,1,Wrong city: Frankfurt,True,0.7
+H0416,Valencia Hotel,LOW,True,True,True,True,0,,False,1.0
+H0417,Brown Hotel,LOW,True,True,True,True,0,,False,1.0
+H0418,Rogers Hotel,LOW,True,True,True,True,0,,False,1.0
+H0419,Perez Hotel,LOW,True,True,True,True,0,,False,1.0
+H0420,Cole Hotel,HIGH,True,False,False,False,8,Claimed 5-star rating | Claimed 250 rooms | Unsupported amenity: rooftop swimming pool | Unsupported amenity: private spa | Unsupported amenity: michelin-starred restaurant | Unsupported amenity: airport transfers | Unsupported amenity: 24-hour butler service | Wrong city: Munich,True,0.0
+H0421,Macdonald Hotel,LOW,True,True,True,True,0,,False,1.0
+H0422,Olsen Hotel,LOW,True,True,True,True,0,,False,1.0
+H0423,Keller Hotel,MEDIUM,True,False,True,True,1,Wrong city: Berlin,True,0.7
+H0424,Hall Hotel,HIGH,True,False,False,False,8,Claimed 5-star rating | Claimed 250 rooms | Unsupported amenity: rooftop swimming pool | Unsupported amenity: private spa | Unsupported amenity: michelin-starred restaurant | Unsupported amenity: airport transfers | Unsupported amenity: 24-hour butler service | Wrong city: Munich,True,0.0
+H0425,Rowland Hotel,LOW,True,True,True,True,0,,False,1.0
+H0426,Ellis Hotel,LOW,True,True,True,True,0,,False,1.0
+H0427,Reese Hotel,LOW,True,True,True,True,0,,False,1.0
+H0428,Garcia Hotel,LOW,True,True,True,True,0,,False,1.0
+H0429,Taylor Hotel,LOW,True,True,True,True,0,,False,1.0
+H0430,Brady Hotel,LOW,True,True,True,True,0,,False,1.0
+H0431,Arnold Hotel,LOW,True,True,True,True,0,,False,1.0
+H0432,Parsons Hotel,LOW,True,True,True,True,0,,False,1.0
+H0433,Park Hotel,MEDIUM,True,False,True,True,1,Wrong city: Berlin,True,0.7
+H0434,Miller Hotel,LOW,True,True,True,True,0,,False,1.0
+H0435,Conley Hotel,HIGH,True,True,False,False,7,Claimed 5-star rating | Claimed 250 rooms | Unsupported amenity: rooftop swimming pool | Unsupported amenity: private spa | Unsupported amenity: michelin-starred restaurant | Unsupported amenity: airport transfers | Unsupported amenity: 24-hour butler service,True,0.0
+H0436,Bowers Hotel,MEDIUM,True,False,True,True,1,Wrong city: Berlin,True,0.7
+H0437,Tran Hotel,HIGH,True,False,False,False,8,Claimed 5-star rating | Claimed 250 rooms | Unsupported amenity: rooftop swimming pool | Unsupported amenity: private spa | Unsupported amenity: michelin-starred restaurant | Unsupported amenity: airport transfers | Unsupported amenity: 24-hour butler service | Wrong city: Munich,True,0.0
+H0438,Jones Hotel,LOW,True,True,True,True,0,,False,1.0
+H0439,Paul Hotel,LOW,True,True,True,True,0,,False,1.0
+H0440,Craig Hotel,LOW,True,True,True,True,0,,False,1.0
+H0441,Newman Hotel,LOW,True,True,True,True,0,,False,1.0
+H0442,Stevens Hotel,HIGH,True,False,False,False,7,Claimed 250 rooms | Unsupported amenity: rooftop swimming pool | Unsupported amenity: private spa | Unsupported amenity: michelin-starred restaurant | Unsupported amenity: airport transfers | Unsupported amenity: 24-hour butler service | Wrong city: Munich,True,0.0
+H0443,Kim Hotel,LOW,True,True,True,True,0,,False,1.0
+H0444,Brown Hotel,MEDIUM,True,False,True,True,1,Wrong city: Berlin,True,0.7
+H0445,Williams Hotel,LOW,True,True,True,True,0,,False,1.0
+H0446,Henderson Hotel,LOW,True,True,True,True,0,,False,1.0
+H0447,Miller Hotel,LOW,True,True,True,True,0,,False,1.0
+H0448,Fleming Hotel,MEDIUM,True,False,True,True,1,Wrong city: Frankfurt,True,0.7
+H0449,Ellis Hotel,MEDIUM,True,False,True,True,1,Wrong city: Munich,True,0.7
+H0450,Rose Hotel,LOW,True,True,True,True,0,,False,1.0
+H0451,Gilbert Hotel,LOW,True,True,True,True,0,,False,1.0
+H0452,Pitts Hotel,LOW,True,True,True,True,0,,False,1.0
+H0453,Woodward Hotel,LOW,True,True,True,True,0,,False,1.0
+H0454,Collier Hotel,LOW,True,True,True,True,0,,False,1.0
+H0455,Walls Hotel,LOW,True,True,True,True,0,,False,1.0
+H0456,Thompson Hotel,LOW,True,True,True,True,0,,False,1.0
+H0457,Fitzpatrick Hotel,LOW,True,True,True,True,0,,False,1.0
+H0458,Campbell Hotel,LOW,True,True,True,True,0,,False,1.0
+H0459,Choi Hotel,MEDIUM,True,False,True,True,1,Wrong city: Hamburg,True,0.7
+H0460,Evans Hotel,MEDIUM,True,False,True,True,1,Wrong city: Hamburg,True,0.7
+H0461,Garcia Hotel,LOW,True,True,True,True,0,,False,1.0
+H0462,Walters Hotel,LOW,True,True,True,True,0,,False,1.0
+H0463,Deleon Hotel,LOW,True,True,True,True,0,,False,1.0
+H0464,Young Hotel,LOW,True,True,True,True,0,,False,1.0
+H0465,Osborne Hotel,HIGH,True,True,False,False,7,Claimed 5-star rating | Claimed 250 rooms | Unsupported amenity: rooftop swimming pool | Unsupported amenity: private spa | Unsupported amenity: michelin-starred restaurant | Unsupported amenity: airport transfers | Unsupported amenity: 24-hour butler service,True,0.0
+H0466,Walsh Hotel,MEDIUM,True,False,True,True,1,Wrong city: Hamburg,True,0.7
+H0467,Miller Hotel,LOW,True,True,True,True,0,,False,1.0
+H0468,Fowler Hotel,MEDIUM,True,False,True,True,1,Wrong city: Munich,True,0.7
+H0469,Castro Hotel,LOW,True,True,True,True,0,,False,1.0
+H0470,Sexton Hotel,LOW,True,True,True,True,0,,False,1.0
+H0471,Mccarthy Hotel,HIGH,True,False,False,False,8,Claimed 5-star rating | Claimed 250 rooms | Unsupported amenity: rooftop swimming pool | Unsupported amenity: private spa | Unsupported amenity: michelin-starred restaurant | Unsupported amenity: airport transfers | Unsupported amenity: 24-hour butler service | Wrong city: Munich,True,0.0
+H0472,Turner Hotel,LOW,True,True,True,True,0,,False,1.0
+H0473,Anderson Hotel,LOW,True,True,True,True,0,,False,1.0
+H0474,Lopez Hotel,MEDIUM,True,False,True,True,1,Wrong city: Frankfurt,True,0.7
+H0475,Jensen Hotel,LOW,True,True,True,True,0,,False,1.0
+H0476,Baker Hotel,LOW,True,True,True,True,0,,False,1.0
+H0477,Mueller Hotel,LOW,True,True,True,True,0,,False,1.0
+H0478,Lee Hotel,MEDIUM,True,False,True,True,1,Wrong city: Frankfurt,True,0.7
+H0479,Padilla Hotel,LOW,True,True,True,True,0,,False,1.0
+H0480,Gallegos Hotel,MEDIUM,True,False,True,True,1,Wrong city: Munich,True,0.7
+H0481,Parker Hotel,LOW,True,True,True,True,0,,False,1.0
+H0482,Bruce Hotel,LOW,True,True,True,True,0,,False,1.0
+H0483,Cole Hotel,MEDIUM,True,False,True,True,1,Wrong city: Frankfurt,True,0.7
+H0484,Malone Hotel,LOW,True,True,True,True,0,,False,1.0
+H0485,May Hotel,HIGH,True,False,False,False,8,Claimed 5-star rating | Claimed 250 rooms | Unsupported amenity: rooftop swimming pool | Unsupported amenity: private spa | Unsupported amenity: michelin-starred restaurant | Unsupported amenity: airport transfers | Unsupported amenity: 24-hour butler service | Wrong city: Munich,True,0.0
+H0486,Fleming Hotel,LOW,True,True,True,True,0,,False,1.0
+H0487,Floyd Hotel,MEDIUM,True,False,True,True,1,Wrong city: Hamburg,True,0.7
+H0488,Combs Hotel,LOW,True,True,True,True,0,,False,1.0
+H0489,Kaufman Hotel,LOW,True,True,True,True,0,,False,1.0
+H0490,Marshall Hotel,LOW,True,True,True,True,0,,False,1.0
+H0491,Anderson Hotel,MEDIUM,True,False,True,True,1,Wrong city: Berlin,True,0.7
+H0492,Jones Hotel,LOW,True,True,True,True,0,,False,1.0
+H0493,Allen Hotel,LOW,True,True,True,True,0,,False,1.0
+H0494,Huang Hotel,LOW,True,True,True,True,0,,False,1.0
+H0495,Rodgers Hotel,LOW,True,True,True,True,0,,False,1.0
+H0496,Horton Hotel,LOW,True,True,True,True,0,,False,1.0
+H0497,Jones Hotel,LOW,True,True,True,True,0,,False,1.0
+H0498,Little Hotel,LOW,True,True,True,True,0,,False,1.0
+H0499,Swanson Hotel,LOW,True,True,True,True,0,,False,1.0
+H0500,Cain Hotel,MEDIUM,True,False,True,True,1,Wrong city: Munich,True,0.7
