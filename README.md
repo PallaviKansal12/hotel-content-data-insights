@@ -41,7 +41,6 @@ Imagine a hotel marketing team wants to scale AI-generated content for several p
 ## Run the dashboard
 
 ```bash
-cd /Users/princejain/hotel-content-data-insights
 source venv/bin/activate
 streamlit run dashboard/streamlit_app.py
 ```
