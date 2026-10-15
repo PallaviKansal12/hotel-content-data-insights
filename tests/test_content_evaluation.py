@@ -186,3 +186,76 @@ def test_confidence_decreases_for_bad_content():
     )
 
     assert bad_result["confidence"] < good_result["confidence"]
+
+
+def test_missing_review_count_requires_human_review():
+
+    hotel = create_hotel()
+    generated_content = pd.Series({
+        "ai_description": (
+            "Test Hotel 1 is located in Berlin, Germany. "
+            "The hotel has a guest rating of 4.5."
+        )
+    })
+
+    result = evaluate_hotel(hotel, generated_content)
+
+    assert result["review_count_check"] is False
+    assert result["risk_level"] == "MEDIUM"
+    assert result["human_review_required"] is True
+
+
+def test_valid_five_star_rating_is_not_flagged():
+
+    hotel = create_hotel()
+    hotel["rating"] = 5.0
+    generated_content = pd.Series({
+        "ai_description": (
+            "Test Hotel 1 is located in Berlin, Germany. "
+            "This 5-star hotel has a rating of 5.0 based on "
+            "1200 reviews."
+        )
+    })
+
+    result = evaluate_hotel(hotel, generated_content)
+
+    assert result["rating_check"] is True
+    assert result["unsupported_claim_count"] == 0
+    assert result["risk_level"] == "LOW"
+
+
+def test_unsupported_room_count_is_reported():
+
+    hotel = create_hotel()
+    generated_content = pd.Series({
+        "ai_description": (
+            "Test Hotel 1 is located in Berlin, Germany. "
+            "The hotel has a guest rating of 4.5 based on "
+            "1200 reviews and features 250 rooms."
+        )
+    })
+
+    result = evaluate_hotel(hotel, generated_content)
+
+    assert result["unsupported_claim_count"] == 1
+    assert result["unsupported_claims"] == "Claimed 250 rooms"
+    assert result["risk_level"] == "MEDIUM"
+    assert result["human_review_required"] is True
+
+
+def test_confidence_is_clamped_at_zero():
+
+    hotel = create_hotel()
+    generated_content = pd.Series({
+        "ai_description": (
+            "Other Hotel is in Munich, Germany. It is a 5-star hotel "
+            "with 250 rooms, a rooftop swimming pool, a private spa, "
+            "a Michelin-starred restaurant, airport transfers, and "
+            "24-hour butler service."
+        )
+    })
+
+    result = evaluate_hotel(hotel, generated_content)
+
+    assert result["risk_level"] == "HIGH"
+    assert result["confidence"] == 0.0
